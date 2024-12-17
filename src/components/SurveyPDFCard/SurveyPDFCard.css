@@ -1,0 +1,18 @@
+.SurveyPDFCard {
+  border-left: 7px solid var(--accent-color-light);
+  height: 40px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.SurveyPDFCard p {
+  font-size: 12px;
+}
+
+.SurveyPDFCard i:hover {
+  cursor: pointer;
+  color: rgb(255, 112, 112);
+}

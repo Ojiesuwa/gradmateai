@@ -1,0 +1,29 @@
+.SurveyQuestion {
+  width: 100%;
+  display: flex;
+}
+
+.SurveyQuestion p {
+  font-size: 12px;
+}
+
+.question-number {
+  margin-right: 6px;
+}
+
+.question-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.survey-question-btn {
+  width: 150px;
+  background-color: #3333c1;
+  margin-top: 15px;
+}
+
+.SurveyQuestion textarea {
+  height: 164px;
+  margin-top: 24px;
+}

@@ -1,0 +1,25 @@
+.GenerationLoadingScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-bar {
+  height: 5px;
+  width: 354px;
+  background-color: var(--accent-color);
+  border-radius: 3px;
+  margin-top: 13px;
+}
+
+.loading-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.loading-progress {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  color: var(--accent-color);
+}

@@ -1,0 +1,85 @@
+.Survey {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.survey-information-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information-wrapper {
+  max-width: 692px;
+}
+
+.survey-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.survey-title-detail {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.action-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.action-wrapper button {
+  /* padding: 0 26px; */
+  font-size: 12px;
+}
+
+.reset-button {
+  background-color: #4f4fa1;
+  width: 131px;
+}
+
+.generate-button {
+  width: 150px;
+}
+
+.survey-container {
+  width: 100%;
+  height: calc(100% - 110px);
+  display: flex;
+  gap: 50px;
+}
+
+.survey-form-container {
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-right: 10px;
+}
+
+.survey-file-add-container {
+  width: 50%;
+  height: 100%;
+}
+
+.reference-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.pdf-add-btn {
+  background-color: #3333c1;
+}
+
+.pdf-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

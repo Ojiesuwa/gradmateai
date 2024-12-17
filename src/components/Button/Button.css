@@ -1,0 +1,10 @@
+.loading-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.loading-btn-img {
+  width: 20px;
+}

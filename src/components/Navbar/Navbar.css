@@ -1,0 +1,26 @@
+.Navbar {
+  width: 100vw;
+  height: 55px;
+  background-color: var(--accent-color);
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+}
+
+.nav-action-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.dashboard-nav-btn {
+  background-color: #3333c1;
+  height: 40px;
+  width: 142px;
+  border-radius: 6px;
+  font-weight: 500;
+}

@@ -1,0 +1,16 @@
+.GenerationScreen {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 70px);
+  z-index: 300;
+  background-color: var(--background-color);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

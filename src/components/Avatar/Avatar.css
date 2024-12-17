@@ -1,0 +1,15 @@
+.Avatar {
+  width: 35px;
+  height: 35px;
+}
+
+.Avatar:hover {
+  transform: translateY(-3px);
+}
+
+.Avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

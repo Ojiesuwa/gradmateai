@@ -1,6 +1,6 @@
 .GenerationScreen {
   position: fixed;
-  top: 70px;
+
   left: 0;
   width: 100vw;
   height: calc(100vh - 70px);
@@ -11,6 +11,25 @@
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+}
+
+.gen-screen-active {
+  top: 70px;
+}
+
+.gen-screen-inactive {
+  top: 100%;
+}
+
+.GenerationScreen .fa-chevron-down {
+  font-size: 14px;
+}
+
+.GenerationScreen .fa-chevron-down:hover {
+  color: var(--accent-color);
+  cursor: pointer;
 }

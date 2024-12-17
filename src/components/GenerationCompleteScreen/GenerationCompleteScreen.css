@@ -1,0 +1,39 @@
+.GenerationCompleteScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.report-preview {
+  height: 300px;
+  width: 250px;
+}
+
+.generation-success-message {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 24px;
+}
+
+.generation-success-message i {
+  font-size: 30px;
+  color: #17af11;
+}
+
+.generation-success-message p {
+  font-size: 13px;
+}
+
+.generated-report-title {
+  max-width: 860px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.purchase-btn {
+  margin-top: 23px;
+  max-width: 450px;
+}

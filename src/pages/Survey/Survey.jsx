@@ -7,7 +7,7 @@ import GenerationScreen from "../../components/GenerationScreen/GenerationScreen
 const Survey = () => {
   return (
     <div className="Survey custom-page">
-      <div className="survey-information-container">
+      <div className="survey-information-container fade-down">
         <div className="information-wrapper">
           <p className="survey-title">
             Questionnaire : A report on The Evolution of Pre-Colonial ...
@@ -24,7 +24,7 @@ const Survey = () => {
         </div>
       </div>
       <div className="survey-container">
-        <div className="survey-form-container">
+        <div className="survey-form-container fade-right">
           <SurveyQuestion />
           <SurveyQuestion />
           <SurveyQuestion />
@@ -34,7 +34,7 @@ const Survey = () => {
           <SurveyQuestion />
           <SurveyQuestion />
         </div>
-        <div className="survey-file-add-container">
+        <div className="survey-file-add-container fade-left">
           <p className="reference-title">Reference PDF</p>
           <p className="small-text">
             To help us give you that personal touch to your citations and

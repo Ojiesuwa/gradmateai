@@ -1,2 +1,57 @@
 .Dashboard {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.project-list-container {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.report-list-container {
+  width: 100%;
+  height: 55%;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 15px 0;
+  /* overflow-y: scroll; */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-control-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-control-wrapper button {
+  width: 175px;
+}
+
+.project-preview-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  padding-bottom: 40px;
+  overflow-y: scroll;
+}
+
+.report-title-wrapper {
+  margin-bottom: 10px;
+}
+.report-preview-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  padding-bottom: 20px;
+  padding-top: 6px;
 }
